@@ -30,7 +30,7 @@ const disableScroll =  () => {
 const enableScroll = () => {
 	document.body.style.cssText = '';
 	window.scroll({
-		top: document.body.dbScrollY = window.scrollY,
+		top: document.body.dbScrollY,
 	});
 
 };
